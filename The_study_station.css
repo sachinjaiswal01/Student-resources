@@ -70,13 +70,31 @@ section {
 video {
   padding: 10px;
 }
+#video video:hover{
+  transform: translateY(-12px);
+}
+#video video {
+  transition: 0.5s;
+}
 
 iframe {
   height: 75vh;
 }
+.review iframe:hover{
+  transform: translateY(-12px);
+}
+.review iframe{
+  transition: 0.5s;
+}
 
 img {
   padding: 10px;
+}
+.material img:hover{
+  transform: translateY(-12px);
+}
+.material img{
+  transition: 0.5s;
 }
  .founder{
   border-radius: 100px;
@@ -90,7 +108,12 @@ img {
 section h5 {
   margin: 40px;
 }
-
+.our_founder img:hover{
+  transform: translateY(-12px);
+}
+.our_founder img{
+  transition: 0.5s;
+}
 footer {
   background-color: #333;
   overflow: hidden;
